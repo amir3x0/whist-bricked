@@ -1,5 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import {getFirestore } from 'firebase/firestore';
+import app from 'firebase/app';
+
+const db = getFirestore(app);
 
 export default function App() {
   return (
