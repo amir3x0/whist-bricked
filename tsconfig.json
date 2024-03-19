@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./typescript-build",
+    "allowJs": true,
+    "target": "es6",
+    "module": "commonjs"
+  },
+  "include": [
+    "src/**/*",
+    "App.js"
+  ],
+  "extends": "expo/tsconfig.base"
+}
